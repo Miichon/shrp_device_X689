@@ -168,6 +168,10 @@ BUILD_BROKEN_DUP_RULES := true
 # Maintainer/Version
 TW_DEVICE_VERSION := Miichon
 
+# LZMA ramdisk compression
+LZMA_RAMDISK_TARGETS := boot
+LZMA_COMPRESSION := -9
+
 # logcd
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
@@ -192,6 +196,7 @@ SHRP_STATUSBAR_RIGHT_PADDING := 40
 SHRP_STATUSBAR_LEFT_PADDING := 40
 SHRP_NOTCH := true
 SHRP_DARK := true
+SHRP_EXPRESS := true
 SHRP_CUSTOM_FLASHLIGHT := true
 SHRP_FONP_1 := /sys/devices/virtual/torch/torch/torch_level
 SHRP_FLASH_MAX_BRIGHTNESS := 200
