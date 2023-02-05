@@ -168,10 +168,6 @@ BUILD_BROKEN_DUP_RULES := true
 # Maintainer/Version
 TW_DEVICE_VERSION := Miichon
 
-# LZMA ramdisk compression
-LZMA_RAMDISK_TARGETS := boot
-LZMA_COMPRESSION := -9
-
 # logcd
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
