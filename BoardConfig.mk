@@ -196,6 +196,7 @@ SHRP_STATUSBAR_LEFT_PADDING := 40
 SHRP_NOTCH := true
 SHRP_DARK := true
 SHRP_EXPRESS := true
+SHRP_EXPRESS_USE_DATA := true
 SHRP_CUSTOM_FLASHLIGHT := true
 SHRP_FONP_1 := /sys/devices/virtual/torch/torch/torch_level
 SHRP_FLASH_MAX_BRIGHTNESS := 200
