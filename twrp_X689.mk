@@ -27,8 +27,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 # Inherit from rosemary device
 $(call inherit-product, device/infinix/X689/device.mk)
 
-# Inherit some common SHRP stuff.
-$(call inherit-product, vendor/shrp/config/common.mk)
+# Inherit some common TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := X689
