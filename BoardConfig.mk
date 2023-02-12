@@ -167,9 +167,6 @@ TW_INCLUDE_REPACKTOOLS := true
 # Build
 BUILD_BROKEN_DUP_RULES := true
 
-# Maintainer/Version
-TW_DEVICE_VERSION := Miichon
-
 # logcd
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
