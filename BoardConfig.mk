@@ -151,7 +151,6 @@ TW_INCLUDE_RESETPROP := true
 TW_USE_TOOLBOX := true
 TW_EXCLUDE_APEX := true
 TW_EXCLUDE_PYTHON := true
-Tw_EXCLUDE_NANO := true
 TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_NTFS_3G := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.0/lun.%d/file
@@ -177,7 +176,7 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 # SHRP specific device flags
 SHRP_DEVICE_CODE := X689
 SHRP_PATH := device/infinix/X689
-SHRP_MAINTAINER := Miichon
+SHRP_MAINTAINER := Nomercy992
 SHRP_REC_TYPE := SAR
 SHRP_DEVICE_TYPE := A/B
 SHRP_REC := /dev/block/platform/bootdevice/by-name/boot
@@ -189,13 +188,15 @@ SHRP_FLASH := 1
 SHRP_AB := true
 SHRP_STATUSBAR_RIGHT_PADDING := 40
 SHRP_STATUSBAR_LEFT_PADDING := 40
+SHRP_EXPRESS := true
+SHRP_EXPRESS_USE_DATA := true
 SHRP_NOTCH := true
 SHRP_DARK := true
 SHRP_CUSTOM_FLASHLIGHT := true
 SHRP_FONP_1 := /sys/devices/virtual/torch/torch/torch_level
 SHRP_FLASH_MAX_BRIGHTNESS := 200
 SHRP_NO_SAR_AUTOMOUNT := true
-SHRP_LITE := true
+SHRP_HAS_RECOVERY_PARTITION := true
 
 # shrp addons
 SHRP_SKIP_DEFAULT_ADDON_1 := true
