@@ -196,7 +196,6 @@ SHRP_CUSTOM_FLASHLIGHT := true
 SHRP_FONP_1 := /sys/devices/virtual/torch/torch/torch_level
 SHRP_FLASH_MAX_BRIGHTNESS := 200
 SHRP_NO_SAR_AUTOMOUNT := true
-SHRP_HAS_RECOVERY_PARTITION := true
 
 # shrp addons
 SHRP_SKIP_DEFAULT_ADDON_1 := true
